@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc -p tsconfig.app.json",
+    "typecheck": "tsc -b",
     "lint": "eslint .",
     "test": "vitest run",
     "lint:fix": "eslint \"./**/*.{js,mjs,cjs,ts,jsx,tsx}\" --fix",
