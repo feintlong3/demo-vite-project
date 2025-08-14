@@ -15,7 +15,7 @@ export default defineConfig({
           setupFiles: ['./vitest-setup.ts'],
           include: ['**/*.test.{ts,tsx}'],
           // jsdomテストから除外する設定
-          exclude: ['**/*.browser.test.ts', '**/*.browser.test.tsx', 'node_modules', 'dist'],
+          exclude: ['**/*.browser.test.{ts,tsx}', 'node_modules', 'dist'],
         },
       },
       // Browser Modeでの設定
